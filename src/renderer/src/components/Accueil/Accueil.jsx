@@ -25,7 +25,7 @@ const [isopen,Setopen] = useState(false);
     <div className=" h-full w-full  text-center flex">
       <div className="w-10/12">
      
-      <h1 className="text-6xl my-6 font-bold text-green-700">Cabinet Achref</h1>
+      <h1 className="text-6xl my-6 font-bold text-green-700">Cabinet</h1>
         <div className="flex items-center w-fit mx-auto  text-left">
             <p className="mr-8">Patient</p> 
             <div className="border px-2 rounded-l-sm w-96 text-zinc-500 border-gray-300 cursor-pointer text-sm font-semibold py-1" onClick={()=>Setopen((prv)=>!prv)}>Nom complet</div>
